@@ -1,0 +1,95 @@
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap')
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+h1, h2, h3 {
+    font-family: 'Merriweather', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+h3 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+html,
+body {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px;
+    background-color: #703D57;
+}
+
+p.small {
+    line-height: .7;
+}
+
+.Aligner {
+    display: flex align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+    padding: 5px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.top {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.body {
+    max-width: 100% padding: 10px;
+}
+
+.div {
+    background-color: #F2F4EF;
+    padding: 5px;
+}
+
+h4, h5 {
+    font-size: 12px;
+}
+
+a:visited {
+    color: #957186;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D9B8C4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
